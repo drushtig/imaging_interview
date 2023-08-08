@@ -1,0 +1,8 @@
+# Config File for main.py and utilities.py
+
+# Storage Path for Folder
+Paths:
+source_folder: "/home/livello_d/Downloads/Drushti/img"
+destination_folder: "/home/livello_d/Downloads/Drushti/sim"
+threshold: 1000
+
