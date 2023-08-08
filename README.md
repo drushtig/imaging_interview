@@ -11,7 +11,9 @@ imaging_interview
 
 ## Data Format
 
-The images are in PNG format. Each image file is named following the pattern: c%camera_id%-%timestamp%.png. The timestamp is in either of two formats.
+1. The images are in PNG format. 
+2. Each image file is named following the pattern: c%camera_id%-%timestamp%.png. 
+3. The timestamp is in either of two formats.
 
 
 ## Installation
@@ -20,6 +22,8 @@ The images are in PNG format. Each image file is named following the pattern: c%
 2. Update the `source_folder` and `destination_folder` variables in `config.yaml` with the paths to your source and destination folders.
 3. Run `python main.py` to start the image processing script.
 
+
+## General Working
 This script will process all images in the source folder, compare each image with the next one, and move similar images to the destination folder. The similarity of images is determined by a threshold value. If the score of the comparison is less than the threshold, the images are considered similar.
 
 
@@ -30,4 +34,9 @@ This project uses the Black code formatter to ensure consistent and readable cod
 ```bash
 
 black main.py utilities.py
+
+
+## Contact Information
+
+For more questions, feel free to reach out to drushtimgulhane@gmail.com.
 
