@@ -27,6 +27,12 @@ imaging_interview
 This script will process all images in the source folder, compare each image with the next one, and move similar images to the destination folder. The similarity of images is determined by a threshold value. If the score of the comparison is less than the threshold, the images are considered similar.
 
 
+## Contact Information
+
+For more questions, feel free to reach out to drushtimgulhane@gmail.com.
+
+
+
 ## Additional information
 
 This project uses the Black code formatter to ensure consistent and readable code style. To format your code with Black, run:
@@ -35,8 +41,4 @@ This project uses the Black code formatter to ensure consistent and readable cod
 
 black main.py utilities.py
 
-
-## Contact Information
-
-For more questions, feel free to reach out to drushtimgulhane@gmail.com.
-
+  
